@@ -1,1 +1,88 @@
-﻿
+﻿*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header{
+    max-width: 1168px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    
+}
+
+.content{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    width: 45%;
+}
+
+.form-input
+{
+    width: 1168px;
+    padding: 37px 50px;
+    margin: 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+section{
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+.input-form {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 37px 50px;
+}
+
+.input-form > *
+{
+    width: 50%;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
