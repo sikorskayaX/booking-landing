@@ -8,8 +8,8 @@ $(function(){
             'email' : $('[name = "email"]').val()
         };
 
-        $.post('api.php', data, function(){
-            alert('Данные отправлены');
+        $.post('api.php', data, function(response){
+            alert(response);
         })
 
         console.log(data);
