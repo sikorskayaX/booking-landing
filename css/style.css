@@ -87,6 +87,11 @@ button{
     margin-bottom: 15px;
 }
 
+button:hover {
+    background-color: darkblue;
+    transform: scale(0.95); 
+  }
+
 table {
     border: 2px solid rgb(98, 128, 46);
     border-collapse: collapse;

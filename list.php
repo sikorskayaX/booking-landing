@@ -18,6 +18,7 @@
         </style>
     </head>
     <body>
+        <h1>Table of orders</h1>
         <table>
             <tr>
                 <th>ID</th>
